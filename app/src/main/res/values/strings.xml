@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Webradio</string>
+    <string name="stations">Sender</string>
+    <string name="load_playlist">XSPF laden</string>
+    <string name="playlist_loaded">Senderliste geladen</string>
+    <string name="import_error">Bitte eine gültige XSPF-Datei mit mindestens einem Radiostream auswählen.</string>
+    <string name="playback_channel">Radiowiedergabe</string>
+    <string name="start">Start</string>
+    <string name="stop">Stopp</string>
+    <string name="quieter">− Leiser</string>
+    <string name="louder">+ Lauter</string>
+    <string name="ready">Bereit · %1$s</string>
+    <string name="connecting">Verbinde · %1$s</string>
+    <string name="playing">Läuft · %1$s</string>
+    <string name="buffering">Puffert · %1$s</string>
+    <string name="stopped">Gestoppt · %1$s</string>
+    <string name="stream_error">Stream nicht verfügbar · %1$s</string>
+    <string name="audio_busy">Audio gerade nicht verfügbar</string>
+    <string name="no_stations">Keine Sender in der Wiedergabeliste</string>
+    <string name="playlist_error">Senderliste konnte nicht geladen werden</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Wiedergabeliste</title>
+	<trackList>
+		<track>
+			<location>https://streams.80s80s.de/80s80sDAB/mp3-192/streams.80s80s.de/</location>
+			<title>80s80s DAB</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.80s80s.de/synthiepop/mp3-192/streams.80s80s.de/</location>
+			<title>80s80s SYNTHIEPOP</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/danceradio/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - DANCE RADIO</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - Eurodance</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/inthemix/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - In The Mix</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/loveparade/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - LOVEPARADE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/RAVE/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - RAVE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://streams.90s90s.de/techno/mp3-192/streams.90s90s.de/</location>
+			<title>90s90s - Techno</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://stream.rtlradio.de/rtl-de-national/mp3-128</location>
+			<title>RTL Deutschlands Hit-Radio National</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://sunsl.streamabc.net/sunsl-sunsl6eifqasv1fngh-mp3-192-9467550?sABC=6n571p24%230%238628s76nqrsp81042726o8q463567o3o%23fgernz.fhafuvar-yvir.qr&amp;aw_0_1st.playerid=stream.sunshine-live.de&amp;amsparams=playerid:stream.sunshine-live.de;skey:1784093732</location>
+			<title>SUNSHINE LIVE - 80s</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sunsl.streamabc.net/sunsl-eurodance-mp3-192-9832422?sABC=6n571or8%230%238628s76nqrsp81042726o8q463567o3o%23fgernz.fhafuvar-yvir.qr&amp;aw_0_1st.playerid=stream.sunshine-live.de&amp;amsparams=playerid:stream.sunshine-live.de;skey:1784093672</location>
+			<title>SUNSHINE LIVE - Eurodance</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sunsl.streamabc.net/sunsl-sslschranz-mp3-192-6236329?sABC=6n571o32%230%23n5rrprq62s6n6410r29n06996r7rrq87%23fgernz.fhafuvar-yvir.qr&amp;aw_0_1st.playerid=stream.sunshine-live.de&amp;amsparams=playerid:stream.sunshine-live.de;skey:1784093490</location>
+			<title>SUNSHINE LIVE - Schranz</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://sunsl.streamabc.net/sunsl-sslsimulcast-mp3-192-4434053?sABC=6n9q0sq2%230%23n501q9qr2qs87rnq3p3orr219s3q7p30%23fgernz.fhafuvar-yvir.qr&amp;aw_0_1st.playerid=stream.sunshine-live.de&amp;amsparams=playerid:stream.sunshine-live.de;skey:1788678098</location>
+			<title>SUNSHINE LIVE - Simulcast</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+	</extension>
+</playlist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RadioTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+    <color name="background">#101724</color>
+    <color name="surface">#202D40</color>
+    <color name="text_primary">#F5F8FC</color>
+    <color name="text_secondary">#B7C5D9</color>
+    <color name="accent">#93DFCB</color>
+    <color name="on_accent">#0C2A25</color>
+    <color name="ripple">#38FFFFFF</color>
+</resources>

@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application' version '8.13.2'
+}
+
+def playlistAssets = tasks.register('copyPlaylist', Sync) {
+    from rootProject.file('streams.xspf')
+    into layout.buildDirectory.dir('generated/playlistAssets')
+}
+
+android {
+    namespace 'de.webradioplayer'
+    compileSdk 36
+    buildToolsVersion '36.0.0'
+
+    defaultConfig {
+        applicationId 'de.webradioplayer'
+        minSdk 26
+        targetSdk 36
+        versionCode 2
+        versionName '1.1'
+    }
+
+    sourceSets.main.assets.srcDir(playlistAssets.map { it.destinationDir })
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+tasks.named('preBuild') {
+    dependsOn playlistAssets
+}
+
+dependencies {
+    def media3Version = '1.11.1'
+    implementation "androidx.media3:media3-exoplayer:$media3Version"
+    implementation "androidx.media3:media3-exoplayer-hls:$media3Version"
+}
